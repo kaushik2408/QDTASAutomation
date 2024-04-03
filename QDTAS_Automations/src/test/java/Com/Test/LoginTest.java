@@ -29,6 +29,8 @@ public class LoginTest extends BaseClass {
 		public void OpenBrowser() throws InterruptedException {
 			driver=BaseClass.setup();
 		    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		    
+		    System.out.println("1");
 			
 		}
 }
